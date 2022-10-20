@@ -1,0 +1,81 @@
+"questions": [
+{
+"title": "Hva er hovedformene for asynkron testing?",
+"answers": [
+{ "answere": "Asynccall & Precall },
+{
+"answere": "Resolution & Mock"
+},
+{
+"answere": "jesttest & Promised"
+},
+{
+"answere": "Callbacks & Promises",
+"correct": true
+}
+],
+"helper": {
+"text": "Det er vanlig for kode å bli kjørt asynkront så da vil jest trenge å vite når den er ferdig med å teste en kode. I dette spørsmålet ser jeg etter svar på de to former som blir sett på som Hovedformene å teste"
+}
+}
+
+{
+"title": "Hvilke kategori test vil man bruke som rask løsning for å teste noe mindre",
+"answers": [
+{ "answere": "End to End" },
+{
+"answere": "Unit"
+},
+{
+"answere": "Integration",
+"correct": true
+},
+{
+"answere": "Ingen av svarene over"
+}
+],
+"helper": {
+"text": "Her ser man etter noe for å teste små deler av en løsning. Det er da ikke like viktig for oss å se på andre deler av løsningen "
+}
+}
+
+{
+"title": "Hvorfor vil man teste mot react hooks",
+"answers": [
+{ "answere": "Det å teste mot hooks er noe som alltid skal bli gjort" },
+{
+"answere": "Man vil ikke teste mot react hooks"
+},
+{
+"answere": "Det er alltid unødvendig å teste mer enn hooks"
+},
+{
+"answere": "Det vil bli lettere og raskere, man vil i noen tilfeller kunne ha gjennbruk uten å gjøre videre tester.",
+"correct": true
+}
+],
+"helper": {
+"text": "Her vil svaret en tommelfinger regel. Det vil som det meste ikke alltid være tilfelle"
+}
+}
+
+{
+"title": "Når det kommer til testdekning hvilket resultat vil man som regel ha?",
+"answers": [
+{ "answere": "95-100%" },
+{
+"answere": "85-90%",
+"correct": true
+},
+{
+"answere": "Ikke lavere enn 75%"
+},
+{
+"answere": "40-60%"
+}
+],
+"helper": {
+"text": "Testdekning vil si hvor mange linjer av koden som har blitt kjørt gjennom en eller flere tester."
+}
+}
+]
